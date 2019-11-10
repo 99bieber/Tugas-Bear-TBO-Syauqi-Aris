@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.besar.cetakcontroller">
+   <children>
+      <TextField fx:id="virtual_code" editable="false" layoutX="108.0" layoutY="95.0" prefHeight="45.0" prefWidth="384.0" />
+      <Text layoutX="219.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pembayaran" textAlignment="CENTER" wrappingWidth="162.47265625">
+         <font>
+            <Font name="Candara Light" size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barang = " />
+      <Text layoutX="96.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satuan =" />
+      <Text layoutX="97.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total   =" />
+      <Text layoutX="254.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa Tabungan" />
+      <TextField fx:id="sisa" editable="false" layoutX="100.0" layoutY="304.0" prefHeight="45.0" prefWidth="384.0" />
+      <TextField fx:id="nama_barang" editable="false" layoutX="149.0" layoutY="156.0" />
+      <TextField fx:id="qty" editable="false" layoutX="148.0" layoutY="190.0" />
+      <TextField fx:id="harga_total" editable="false" layoutX="148.0" layoutY="223.0" />
+   </children>
+</AnchorPane>

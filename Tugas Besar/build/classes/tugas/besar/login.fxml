@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas.besar.loginController">
+   <children>
+      <Label layoutX="92.0" layoutY="132.0" text="Username" />
+      <TextField fx:id="username" layoutX="90.0" layoutY="158.0" prefHeight="25.0" prefWidth="209.0" styleClass="text-input" stylesheets="@../../../dist/mystyle.css" />
+      <Label layoutX="90.0" layoutY="200.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="90.0" layoutY="230.0" prefHeight="25.0" prefWidth="209.0" styleClass="text-input" stylesheets="@../../../dist/mystyle.css" />
+      <Button fx:id="loginbtn" layoutX="172.0" layoutY="282.0" mnemonicParsing="false" onAction="#loginAction" style="-fx-background-color: #627bd1;" text="Login" textFill="WHITE" />
+      <Label fx:id="ss" alignment="CENTER" layoutX="136.0" layoutY="318.0" prefHeight="17.0" prefWidth="117.0" style="color: none;" textAlignment="CENTER" />
+      <ImageView fitHeight="209.0" fitWidth="218.0" layoutX="379.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../dist/191-1914601_chibi-zero-two-❤️-darling-in-the-franxx-002-chibi.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="388.0" layoutY="91.0" prefHeight="41.0" prefWidth="134.0" text="Login Dulu kaka">
+         <textFill>
+            <LinearGradient endX="0.6952380952380952" endY="0.980952380952381" startX="0.7" startY="0.23809523809523808">
+               <stops>
+                  <Stop color="#fc0000" />
+                  <Stop color="#4400ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
